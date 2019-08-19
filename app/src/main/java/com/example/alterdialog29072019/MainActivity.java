@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 //                            .setDiachi("38 nguyen lam")
 //                            .builder();
 //        Log.d("BBB",nhanvien.getDiachi() + "");
+        Sinhvien sinhvien = new Sinhvien("Nguyen Van A" , WeekDay.FRIDAY);
+        sinhvien.setNgayhoc(WeekDay.FRIDAY);
         btnAlertDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
